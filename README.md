@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Alaga't Kalinga
 
 ### COMPANY NAME: Purr Elise
@@ -52,3 +53,7 @@
 
 ##### TRELLO LINK:
    https://trello.com/b/8Br47LBI/alagang-kalingamobile-app-dev
+=======
+# Pet-Care-App
+mobile app 12 proj
+>>>>>>> d3145413f7db5566c82d349fefd70ffeae274ca5
