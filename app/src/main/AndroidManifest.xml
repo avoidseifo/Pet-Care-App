@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AlagatKalinga"
+        tools:targetApi="31">
+        <activity
+            android:name=".DDCategory"
+            android:exported="false" />
+        <activity
+            android:name=".DontsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UploadActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:theme="@style/Theme.MyApp.MySplash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MenuActivity"
+            android:exported="true" />
+        <activity
+            android:name=".RecipeCategoryActivity"
+            android:exported="true" />
+        <activity
+            android:name=".DosDontsActivity"
+            android:exported="true" />
+        <activity
+            android:name=".SymptomsActivity"
+            android:exported="true" />
+        <activity
+            android:name=".RecordActivity"
+            android:exported="true" />
+        <activity
+            android:name=".AlarmActivity"
+            android:exported="true" />
+
+        <receiver android:name=".AlarmReceiver" />
+
+        <activity
+            android:name=".RecipeListActivity"
+            android:exported="true" />
+        <activity
+            android:name=".DogRecipe1Activity"
+            android:exported="true" />
+        <activity
+            android:name=".DogRecipe2Activity"
+            android:exported="true" />
+        <activity
+            android:name=".DogRecipe3Activity"
+            android:exported="true" />
+        <activity
+            android:name=".DogRecipe4Activity"
+            android:exported="true" />
+        <activity
+            android:name=".DogRecipe5Activity"
+            android:exported="true" />
+        <activity
+            android:name=".DogRecipe6Activity"
+            android:exported="true" />
+        <activity
+            android:name=".DogRecipe7Activity"
+            android:exported="true" />
+        <activity
+            android:name=".DogRecipe8Activity"
+            android:exported="true" />
+        <activity
+            android:name=".DogRecipe9Activity"
+            android:exported="true" />
+        <activity
+            android:name=".DogRecipe10Activity"
+            android:exported="true" />
+        <activity
+            android:name=".CatRecipeActivity"
+            android:exported="true" />
+        <activity
+            android:name=".CatRecipe1Activity"
+            android:exported="true" />
+        <activity
+            android:name=".CatRecipe2Activity"
+            android:exported="true" />
+        <activity
+            android:name=".CatRecipe3Activity"
+            android:exported="true" />
+        <activity
+            android:name=".CatRecipe4Activitiy"
+            android:exported="true" />
+        <activity
+            android:name=".CatRecipe5Activity"
+            android:exported="true" />
+        <activity
+            android:name=".CatRecipe6Activity"
+            android:exported="true" />
+        <activity
+            android:name=".CatRecipe7Activity"
+            android:exported="true" />
+        <activity
+            android:name=".CatRecipe8Activity"
+            android:exported="true" />
+        <activity
+            android:name=".CatRecipe9Activity"
+            android:exported="true" />
+        <activity
+            android:name=".CatRecipe10Activity"
+            android:exported="true" />
+    </application>
+
+</manifest>
